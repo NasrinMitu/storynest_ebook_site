@@ -28,13 +28,13 @@ function Header(){
                 
             </nav> */}
 
-            <div className="flex justify-between items-center py-4 px-8 border-b border-[#9CA3AF]">
+            <div className="flex justify-between items-center py-2 px-8 border-b border-[#9CA3AF]">
 
                 <div className="flex items-center">
                      <img 
                         src={logoImage} 
                         alt="StoryNest Logo" 
-                        className="h-58 w-auto sm:h-10 md:h-12 lg:h-54" 
+                        className="h-20 w-auto md:h-24 lg:h-28 -my-4" 
                      />
                 </div>
 
@@ -78,7 +78,7 @@ function Header(){
         </div>
 
 
-        <div className="flex justify-between items-center py-3 px-8 border-b border-[#9CA3AF]">
+        <div className="flex justify-between items-center py-2 px-8 border-b border-[#9CA3AF]">
         {/* Navigation Links */}
         <nav >
 

@@ -2,6 +2,7 @@ import React from 'react'
 import heroImage from '../../assets/hero-treehouse.png';
 
 
+
 function Home() {
   return (
     <div>
@@ -17,7 +18,7 @@ function Home() {
             Every page is an adventure waiting to unfold!
           </p>
           <div className="flex justify-center md:justify-start space-x-4">
-            <button className="bg-primary-accent text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-red-500 transition-colors shadow-lg">
+            <button className="bg-primary-accent text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-primary-accent-hover transition-colors shadow-lg">
               Sign Up
             </button>
             <button className="bg-transparent text-text-dark border-2 border-text-dark px-8 py-3 rounded-full font-semibold text-lg hover:bg-secondary-accent hover:border-secondary-accent transition-colors">

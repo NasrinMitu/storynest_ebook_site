@@ -2,6 +2,9 @@ import React from "react";
 import {Link, NavLink} from 'react-router-dom'
 import logoImage from '../../assets/StoryNestLogo.png';
 import birdCharacterImage from '../../assets/BirdCharacter.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+
 
 function Header(){
     return(
@@ -28,13 +31,13 @@ function Header(){
                 
             </nav> */}
 
-            <div className="flex justify-between items-center py-2 px-8 border-b border-[#9CA3AF]">
+            <div className="flex justify-between items-center py-2 px-24 border-b border-muted-gray">
 
                 <div className="flex items-center">
                      <img 
                         src={logoImage} 
                         alt="StoryNest Logo" 
-                        className="h-20 w-auto md:h-24 lg:h-28 -my-4" 
+                        className="h-8 w-auto md:h-12 lg:h-16 my-2 transition-transform duration-300 hover:scale-110 hover:-translate-y-1" 
                      />
                 </div>
 
@@ -51,16 +54,9 @@ function Header(){
           
           {/* Search Button */}
           <button className="text-[#3D2C2E] p-2 hover:bg-[#FFD166] rounded-full transition-colors">
-            {/* Replace with an actual search icon from a library like react-icons */}
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              className="h-5 w-5" 
-              fill="none" 
-              viewBox="0 0 24 24" 
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
+
+          <FontAwesomeIcon icon={faSearch} className="text-lg" />
+       
           </button>
           
           <span className="text-[#9CA3AF] select-none">|</span>
@@ -71,14 +67,14 @@ function Header(){
           </button>
           
           {/* Sign In Link */}
-          <a href="#" className="text-[#3D2C2E] hover:text-[#9CA3AF] font-medium transition-colors">
+          <a href="#" className="text-[#3D2C2E] px-5 py-2 rounded-full font-semibold hover:bg-secondary-accent font-medium transition-colors">
             Sign In
           </a>
         </div>
         </div>
 
 
-        <div className="flex justify-between items-center py-2 px-8 border-b border-[#9CA3AF]">
+        <div className="flex justify-between items-center py-2 px-24 border-b border-[#9CA3AF]">
         {/* Navigation Links */}
         <nav >
 
@@ -96,7 +92,7 @@ function Header(){
           <img 
             src={birdCharacterImage} 
             alt="Cute Bird Character" 
-            className="h-10 md:h-12"
+            className="h-10 md:h-12 lg:h-16 transition-transform duration-300 hover:scale-110 hover:-translate-y-1"
           />
         </div>
       </div>

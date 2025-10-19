@@ -16,14 +16,13 @@ function Footer(){
                                              <img 
                                                 src={logoImage} 
                                                 alt="StoryNest Logo" 
-                                                className="h-10 w-auto sm:h-10 md:h-12 lg:h-10" 
+                                                className="h-8 w-auto md:h-12 lg:h-16 transition-transform duration-300 hover:scale-110 hover:-translate-y-1" 
                                              />
-                                             <h1 className="text-xl font-bold uppercase mb-6 text-text-dark">StoryNest</h1>
                                         </div>
                         {/* <h3 className="text-4xl font-extrabold text-text-dark">Storynest</h3> */}
                     </div>
                     <p className="text-base leading-relaxed mb-6 text-text-dark/90">
-                        Storynest is your digital sanctuary for discovering and sharing captivating stories from around the world. Dive into new adventures, connect with authors, and get lost in the magic of books.
+                        Storynest is your digital sanctuary for discovering and sharing captivating stories from around the world. Dive into new adventures, connect with new charecters, and get lost in the magic of books.
                     </p>
                     <div className="flex space-x-5">
                         <a href="#" aria-label="Facebook" className="text-2xl text-text-dark hover:text-primary-accent transition-colors duration-300">
@@ -43,16 +42,16 @@ function Footer(){
                     <h4 className="text-xl font-bold uppercase mb-6 text-text-dark">Menu</h4>
                     <ul>
                         <li className="mb-3 pb-2 border-b border-muted-gray/20 last:border-b-0">
-                            <a href="#" className="text-lg text-text-dark hover:text-primary-accent transition-colors duration-300 block">Home</a>
+                            <a href="#" className="text-lg text-text-dark hover:text-support-green transition-colors duration-300 block">Home</a>
                         </li>
                         <li className="mb-3 pb-2 border-b border-muted-gray/20 last:border-b-0">
-                            <a href="#" className="text-lg text-text-dark hover:text-primary-accent transition-colors duration-300 block">Books</a>
+                            <a href="#" className="text-lg text-text-dark hover:text-support-green transition-colors duration-300 block">Books</a>
                         </li>
                         <li className="mb-3 pb-2 border-b border-muted-gray/20 last:border-b-0">
-                            <a href="#" className="text-lg text-text-dark hover:text-primary-accent transition-colors duration-300 block">About</a>
+                            <a href="#" className="text-lg text-text-dark hover:text-support-green transition-colors duration-300 block">About</a>
                         </li>
                         <li className="mb-3 pb-2 border-b border-muted-gray/20 last:border-b-0">
-                            <a href="#" className="text-lg text-text-dark hover:text-primary-accent transition-colors duration-300 block">Contact</a>
+                            <a href="#" className="text-lg text-text-dark hover:text-support-green transition-colors duration-300 block">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -76,9 +75,9 @@ function Footer(){
                     </div>
                     
                     <div className="space-y-3">
-                        <a href="#" className="block text-lg text-text-dark hover:text-primary-accent transition-colors duration-300">Donate</a>
-                        <a href="#" className="block text-lg text-text-dark hover:text-primary-accent transition-colors duration-300">Privacy Policy</a>
-                        <a href="#" className="block text-lg text-text-dark hover:text-primary-accent transition-colors duration-300">Terms and Conditions</a>
+                        <a href="#" className="block text-lg text-text-dark hover:text-support-green transition-colors duration-300">Donate</a>
+                        <a href="#" className="block text-lg text-text-dark hover:text-support-green transition-colors duration-300">Privacy Policy</a>
+                        <a href="#" className="block text-lg text-text-dark hover:text-support-green transition-colors duration-300">Terms and Conditions</a>
                     </div>
                 </div>
             </div>

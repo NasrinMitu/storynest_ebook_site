@@ -2,6 +2,7 @@
 
 @theme inline {
   --color-primary-accent: #FF6B6B;
+  --color-primary-accent-hover: #E05252;
   --color-secondary-accent: #FFD166;
   --color-support-green: #06D6A0;
   --color-text-dark: #3D2C2E;

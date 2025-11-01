@@ -3,8 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import BookCard from "./BookCard";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-
-const BooksCarousel = ({title, books}) => {
+const BooksCarousel = ({ title, books }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: "start",
@@ -31,17 +30,19 @@ const BooksCarousel = ({title, books}) => {
           <div className="overflow-hidden" ref={emblaRef}>
             <div className="flex my-4">
               {books && books.length > 0 ? (
-  books.map((book) => (
-    <div
-      key={book.id}
-      className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_25%] px-3"
-    >
-      <BookCard book={book} />
-    </div>
-  ))
-) : (
-  <p className="text-center text-gray-500 w-full">No books available.</p>
-)}
+                books.map((book) => (
+                  <div
+                    key={book.id}
+                    className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_25%] px-3"
+                  >
+                    <BookCard book={book} />
+                  </div>
+                ))
+              ) : (
+                <p className="text-center text-gray-500 w-full">
+                  No books available.
+                </p>
+              )}
             </div>
           </div>
 

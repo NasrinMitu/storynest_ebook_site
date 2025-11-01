@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link} from "react-router-dom";
+
 
 function BookCard({ book }) {
   return (
@@ -20,9 +22,9 @@ function BookCard({ book }) {
         </p>
 
         {/* Action Button */}
-        <button className="w-full bg-secondary-accent text-text-dark py-2 rounded-md font-medium hover:bg-primary-accent hover:text-primary-bg transition-colors duration-300">
+        <Link to={`/book/${book.id}`} className="w-full bg-secondary-accent text-center text-text-dark py-2 rounded-md font-medium hover:bg-primary-accent hover:text-primary-bg transition-colors duration-300">
           Read Now
-        </button>
+        </Link>
       </div>
     </div>
   );

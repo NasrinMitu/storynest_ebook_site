@@ -28,6 +28,8 @@ import About from "./pages/About/About";
 import Favorites from "./pages/Favorites/Favorites.jsx";
 import Books from "./pages/Books/Books";
 import Donate from "./pages/Donate/Donate";
+import BookDetails from "./components/Books/BookDetails";
+import { books } from "./data/booksData";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,6 +39,8 @@ const router = createBrowserRouter(
       <Route path="favorites" element={<Favorites />} />
       <Route path="about" element={<About />} />
       <Route path="donate" element={<Donate />} />
+      <Route path="/book/:id" element={<BookDetails books={books} />} />
+
     </Route>
   )
 );

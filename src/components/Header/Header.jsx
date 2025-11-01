@@ -88,7 +88,10 @@ function Header(){
         </nav>
         
         {/* Cute Bird Image */}
-        <div>
+        <div className="flex items-center space-x-4">
+          <a href="#" className="text-[#3D2C2E] px-5 py-2 rounded-full font-semibold hover:bg-secondary-accent font-medium transition-colors">
+            Donate
+          </a>
           <img 
             src={birdCharacterImage} 
             alt="Cute Bird Character" 

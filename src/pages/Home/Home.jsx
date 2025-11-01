@@ -1,9 +1,14 @@
 import React from 'react'
 import heroImage from '../../assets/hero-treehouse.png';
+import BooksCarousel from '../../components/Books/BooksCarousel';
+import { books } from '../../data/booksData';
 
 
 
 function Home() {
+
+    const featuredBooks = books.filter((book) => book.featured);
+
   return (
     <div>
 <section className="bg-[#FFF8F0] py-16 px-8 md:px-16 lg:px-24">
@@ -37,6 +42,7 @@ function Home() {
         </div>
       </div>
     </section>
+     <BooksCarousel title='Featured Books' books={featuredBooks}/> {/* Add the new featured books section here */}
     </div>
   )
 }

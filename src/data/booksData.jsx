@@ -33,7 +33,7 @@ export const books = [
     coverImage:
       "https://via.placeholder.com/300x400/FF6B6B/FFF8F0?text=Book+3",
     rating: 4.7,
-    featured: false,
+    featured: true,
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ export const books = [
     coverImage:
       "https://via.placeholder.com/300x400/06D6A0/3D2C2E?text=Book+5",
     rating: 4.9,
-    featured: false,
+    featured: true,
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ export const books = [
     coverImage:
       "https://via.placeholder.com/300x400/06D6A0/3D2C2E?text=Book+5",
     rating: 4.9,
-    featured: false,
+    featured: true,
   },
 
   {
@@ -79,7 +79,7 @@ export const books = [
     description: "Princess Luna's kingdom relies on the glowing moonstone, but when it fades, she must journey to restore its light.",
     coverImage: "https://via.placeholder.com/300x400/FF6B6B/FFF8F0?text=Book+7",
     rating: 4.9,
-    featured: false,
+    featured: true,
   },
   {
     id: 8,
@@ -89,6 +89,89 @@ export const books = [
     description: "Barnaby the bear leaves his cave for the first time and discovers the wonders of the forest. A tale of curiosity.",
     coverImage: "https://via.placeholder.com/300x400/9CA3AF/3D2C2E?text=Book+8",
     rating: 4.9,
-    featured: false,
+    featured: true,
   },
+
+  {
+  id: 9,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+{
+  id: 10,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+
+{
+  id: 11,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+{
+  id: 12,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+{
+  id: 13,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+
+{
+  id: 14,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+{
+  id: 15,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+},
+
+{
+  id: 16,
+  title: "Goodnight Starry Sky",
+  author: "Ella Moon",
+  category: "Nighttime Stories",
+  description: "A soothing bedtime tale of stars, dreams, and cozy sleep.",
+  coverImage: "https://via.placeholder.com/300x400/FFD166/3D2C2E?text=Night+1",
+  featured: false,
+}
+
 ];

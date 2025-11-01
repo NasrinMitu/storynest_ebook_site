@@ -1,10 +1,16 @@
 import React from 'react'
-import FeaturedBooksCarousel from '../../components/Books/FeaturedBooksCarousel';
+import BooksCarousel from '../../components/Books/BooksCarousel';
+import { books } from "../../data/booksData";
 
 function Books() {
+
+  const featuredBooks = books.filter((book) => book.featured);
+  const nightTimeStories = books.filter(
+    (book) => book.category === "Nighttime Stories");
   return (
     <div>
-                        <FeaturedBooksCarousel /> {/* Add the new featured books section here */}
+                        <BooksCarousel title="Featured Books" books={featuredBooks} /> 
+                        <BooksCarousel title="Nighttime Stories" books={nightTimeStories} />
       
     </div>
   )

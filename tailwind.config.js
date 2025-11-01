@@ -10,6 +10,7 @@ export default {
         // 'text-dark': '#3D2C2E',
         // 'primary-bg': '#FFF8F0',
         // 'muted-gray': '#9CA3AF',
+
       },
     },
   },
